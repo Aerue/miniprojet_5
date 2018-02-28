@@ -8,7 +8,9 @@
 
     <h1>Logout</h1>
 
-    <a href="/">Login</a>
+    <p>Bonjour, <?= $_SESSION['login'] ?></p>
+
+    <a href="http://www.miniprojet_5.test/?page=logout&action=disconnect">Me deconnecter</a>
 
 </body>
 </html>
